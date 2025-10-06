@@ -13,7 +13,7 @@ export default function Hero({
   ctaLabel = 'contact us',
 }) {
   return (
-    <section className="relative overflow-hidden text-white m-2.5 rounded-b-[40px]">
+    <section className="relative overflow-hidden text-white m-2.5 rounded-[20px]">
       <style>{`
         @keyframes bgZoom { from { transform: scale(1); } to { transform: scale(1.06); } }
         @keyframes fadeUp { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
